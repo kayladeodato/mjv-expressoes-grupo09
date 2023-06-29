@@ -16,8 +16,8 @@ public class ImpressorCupom {
         conteudo.append(String.format("%-50s \n", cupom.nomeFantasia));
         Endereco end = cupom.endereco;
         conteudo.append(String.format("%s  N. %s  %s  %s \n%s - %s\n", end.logradouro, end.numero, end.complemento, end.bairro, end.cidade, end.uf));
-        Integer espaco = 29 - cupom.cpf.length();
-        conteudo.append(String.format("CPF/CNPJ:%s %-" + espaco + "s %s\n", cupom.cpf, "",cupom.data));
+        Integer espaco = 31 - cupom.cpf.length();
+        conteudo.append(String.format("CPF/CNPJ:%s %-" + espaco + "s %td/%<tm/%<ty\n", cupom.cpf, "",cupom.data));
         conteudo.append(String.format("IE: %s %33tT\n", cupom.ie, cupom.hora));
         conteudo.append(String.format("IM: %-34s CCF: %d\n", cupom.im, cupom.ccf));
         conteudo.append(String.format("%38s CDD: %d\n","", cupom.cdd));
