@@ -6,7 +6,8 @@ Exercício prático para reforçar o aprendizado em expressões utilizando a for
 
 
 ## Resultado:
-![image](https://github.com/kayladeodato/mjv-expressoes-grupo09/assets/13575694/3c5a41c2-0829-4db7-91a7-628b1089f89a)
+![image](https://github.com/kayladeodato/mjv-expressoes-grupo09/assets/13575694/5d9b8b39-79e4-421a-b3fd-5a848bccc233)
+
 
 ## Equipe
 - <a href="https://github.com/EriksonsSilva"> Erikson Silva </a>
